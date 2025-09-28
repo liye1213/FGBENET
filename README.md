@@ -22,6 +22,7 @@ Clone this repository:
 ```bash
 git clone https://github.com/liye1213/FGBENET.git
 cd FGBENET
+```
 ## 🚀 Usage
 Run the following example to test the model:
 
@@ -34,7 +35,10 @@ x = torch.randn(1, 3, 256, 256)
 
 outputs = model(x)
 mask, edge, distance = outputs
+```
+
 ## 📜 Citation
+
 If you find this work useful, please cite our paper:
 
 ```bibtex
@@ -44,4 +48,31 @@ If you find this work useful, please cite our paper:
   booktitle={ICASSP},
   year={2025}
 }
+```
+##  Acknowledgement
 
+We are very grateful for these excellent works BsiNet, and HBGNet, which have provided the basis for our framework.
+
+```bibtex
+@article{zhao2025hbgnet,
+  author       = {Zhao, Hang and Wu, Bingfang and Zhang, Miao and Long, Jiang and Tian, Fuyou and Xie, Yan and Zeng, Hongwei and Zheng, Zhaoju and Ma, Zonghan and Wang, Mingxing and others},
+  title        = {A large-scale VHR parcel dataset and a novel hierarchical semantic boundary-guided network for agricultural parcel delineation},
+  journal      = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume       = {221},
+  pages        = {1--19},
+  year         = {2025},
+  doi          = {10.1016/j.isprsjprs.2025.01.034}
+}
+@article{LONG2022102871,
+title = {Delineation of agricultural fields using multi-task BsiNet from high-resolution satellite images},
+journal = {International Journal of Applied Earth Observation and Geoinformation},
+volume = {112},
+pages = {102871},
+year = {2022},
+issn = {1569-8432},
+doi = {https://doi.org/10.1016/j.jag.2022.102871},
+
+author = {Jiang Long and Mengmeng Li and Xiaoqin Wang and Alfred Stein},
+}
+
+```
