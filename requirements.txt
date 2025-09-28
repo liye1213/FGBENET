@@ -1,0 +1,23 @@
+
+torch==2.4.1+cu118
+torchvision==0.19.1+cu118
+torchaudio==2.4.1+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Model dependencies
+timm==1.0.15
+einops>=0.6.0
+
+# Common runtime deps
+numpy>=1.23
+pillow>=9.0.0
+
+# Image / IO
+opencv-python>=4.8.0
+
+# Optional but often useful
+# matplotlib>=3.7
+# scipy>=1.10
+# tensorboardX>=2.6
+# scikit-image>=0.22
+# pandas>=2.0
